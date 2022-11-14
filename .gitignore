@@ -1,0 +1,11 @@
+# Node dependency directories, Npm 관련 모듈
+# 추적은 하되, remote에는 올리지마 
+#git status
+node_modules/ 
+
+# .env
+.env
+
+# visual studio code
+.vscode/
+

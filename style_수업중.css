@@ -1,0 +1,60 @@
+/*
+공통적인 태그는 상위에다가 적용
+
+*/
+
+/* General */
+textarea::-webkit-placeholder {
+    font-size: 70%;
+}
+
+textarea::-moz-placeholder {
+    font-size: 70%;
+}
+
+textarea::-ms-placeholder {
+    font-size: 70%;
+}
+
+textarea::placeholder {
+    font-size: 70%;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', 'sans-serif';
+    font-weight: 700;
+}
+
+i {
+    color: #6c757d;
+}
+/* */
+
+body{
+    height: 100vh; /*h100vh  %*/
+}
+
+
+/* article*/
+
+header {
+    height: 20vh;
+}
+
+
+/*section*/
+
+/*Header*/
+.Header{
+    justify-content: space-between; /*중앙으로 옮기자 center*/
+    align-items : center;/*세로축 중앙정렬*/
+    margin: 0 60px;/*좌우 마진*/
+    padding: 10px 0;/*안쪽 여백*/
+}
+.Header_main{
+    /*자식 요소를 수평으로 넣고 싶을따*/
+    display: flex;
+    align-items: center;
+}

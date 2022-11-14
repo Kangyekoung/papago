@@ -1,0 +1,129 @@
+.content{
+    width: 60%;
+    height: 800px;
+    position: relative;
+    
+}
+
+
+.content_right{
+    border:solid 5px ;
+    width: 500px;
+    height: 400px;
+    font-size: 50px;
+    padding: 0px;
+    margin-bottom: 1rem;
+    float:right;
+    position:absolute;
+    left: 800px;
+    top: 20%;
+    border-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+
+
+.content_right_top{
+    border-bottom: solid 1px;
+    height:50px;
+    font-size:40px;
+    margin-left: 20px;
+}
+
+.content_right_center{
+    
+    height:300px;
+    float:center;
+    
+}
+
+.content_right_bottom
+{
+    border-top: solid 1px;
+    height:50px;
+}
+
+
+
+.content_left{
+    border:solid 5px ;
+    width: 500px;
+    height: 400px;
+    font-size: 30px;
+    padding: 0px;
+    margin-bottom: 1rem;
+    float:left;
+    position:absolute;
+    top: 20%;
+    left: 200px;
+    border-radius: 2em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.content_left_top{
+    border-bottom: solid 1px;
+    height:50px;
+    font-size:40px;
+    margin-left: 20px;
+}
+
+.content_left_center{
+    height:300px;
+    float:center;
+    
+}
+
+.content_left_bottom
+{
+    border-top: solid 1px;
+    height:50px;
+}
+
+
+.edit {
+    width:500px;
+    height:300px;
+    font-size:40px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+
+}
+
+
+select {
+    width: 200px; 
+ 
+    border: 1px solid #999;
+    font-family: inherit;  
+    background: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99761B495C84AA8716') no-repeat 95% 50%; 
+    border-radius: 0px; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    }
+    
+    select::-ms-expand {
+            display: none;
+    }
+
+.header_content{
+    display:inline;
+    font-size:20p;
+}
+
+.button{
+    width: 100px;
+    height: 49px;
+    float:right;
+    margin-right: 0px;
+    background-color: rgb(33, 220, 109);
+    border-bottom-right-radius: 20px;
+    border:0px
+}
